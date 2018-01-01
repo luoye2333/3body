@@ -1,0 +1,12 @@
+E:\360data\重要数据\桌面\3body\3body\bin\Debug\3body.exe.config
+E:\360data\重要数据\桌面\3body\3body\bin\Debug\3body.exe
+E:\360data\重要数据\桌面\3body\3body\bin\Debug\3body.pdb
+E:\360data\重要数据\桌面\3body\3body\bin\Debug\3body.xml
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\3body.vbprojResolveAssemblyReference.cache
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\_3body.Form1.resources
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\_3body.Resources.resources
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\3body.vbproj.GenerateResource.Cache
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\3body.exe
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\3body.xml
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\3body.pdb
+E:\360data\重要数据\桌面\3body\3body\obj\Debug\_3body.Status.resources
