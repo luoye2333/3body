@@ -1,8 +1,7 @@
-﻿Module main
+﻿Module bodymain
 
 	Public Const g As Single = 66.7429
-	'G=6.67429*10^-11
-	'这里简化数量级
+	'模拟中的G引力常量
 	Public Framespeed As Integer = 120
 	Public Tinteval As Single = 1 / 120
 

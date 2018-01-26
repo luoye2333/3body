@@ -1,10 +1,13 @@
 ﻿Imports _3body.Star
-
+Imports System.IO
 Public Class Form1
 
 	Public Shared body1, body2 As New Star ', body3
+	Dim sw As StreamWriter
 
 	Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
+		Dim filename As String = CheckFileName()
+		sw = New StreamWriter(filename)
 		With body1
 			.Location = New Dpoint(200.0, 200.0)
 			.Velocity = New Dpoint(100.0, 0.0)
@@ -47,13 +50,30 @@ Public Class Form1
 								Int(body2.Location.y))
 		'debug
 
+		'saving
+		sw.WriteLine(b1.Location.X & " " & b1.Location.Y)
+		sw.WriteLine(b2.Location.X & " " & b2.Location.Y)
 	End Sub
 	Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 		Maintime.Enabled = Not Maintime.Enabled
 	End Sub
 
 	Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-		Dim a As New Status
+		Dim a As New ZuangTai
 		a.Show()
 	End Sub
+
+	Private Sub Form1_Disposed(sender As Object, e As EventArgs) Handles Me.Disposed
+		sw.Close()
+	End Sub
+
+
+
+	Private Function CheckFileName() As String
+		Dim k As Integer
+		While File.Exists("轨迹记录" & k)
+			k += 1
+		End While
+		Return "轨迹记录" & k
+	End Function
 End Class

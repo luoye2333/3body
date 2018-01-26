@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Status
+Partial Class ZuangTai
 	Inherits System.Windows.Forms.Form
 
 	'Form 重写 Dispose，以清理组件列表。
@@ -57,7 +57,7 @@ Partial Class Status
 		'Label2
 		'
 		Me.Label2.AutoSize = True
-		Me.Label2.Location = New System.Drawing.Point(170, 9)
+		Me.Label2.Location = New System.Drawing.Point(360, 9)
 		Me.Label2.Name = "Label2"
 		Me.Label2.Size = New System.Drawing.Size(35, 12)
 		Me.Label2.TabIndex = 1
@@ -66,7 +66,7 @@ Partial Class Status
 		'Label3
 		'
 		Me.Label3.AutoSize = True
-		Me.Label3.Location = New System.Drawing.Point(112, 9)
+		Me.Label3.Location = New System.Drawing.Point(194, 9)
 		Me.Label3.Name = "Label3"
 		Me.Label3.Size = New System.Drawing.Size(35, 12)
 		Me.Label3.TabIndex = 2
@@ -84,7 +84,7 @@ Partial Class Status
 		'Label19
 		'
 		Me.Label19.AutoSize = True
-		Me.Label19.Location = New System.Drawing.Point(170, 45)
+		Me.Label19.Location = New System.Drawing.Point(360, 45)
 		Me.Label19.Name = "Label19"
 		Me.Label19.Size = New System.Drawing.Size(35, 12)
 		Me.Label19.TabIndex = 4
@@ -93,7 +93,7 @@ Partial Class Status
 		'Label18
 		'
 		Me.Label18.AutoSize = True
-		Me.Label18.Location = New System.Drawing.Point(112, 45)
+		Me.Label18.Location = New System.Drawing.Point(194, 45)
 		Me.Label18.Name = "Label18"
 		Me.Label18.Size = New System.Drawing.Size(35, 12)
 		Me.Label18.TabIndex = 5
@@ -111,7 +111,7 @@ Partial Class Status
 		'Label5
 		'
 		Me.Label5.AutoSize = True
-		Me.Label5.Location = New System.Drawing.Point(112, 72)
+		Me.Label5.Location = New System.Drawing.Point(194, 72)
 		Me.Label5.Name = "Label5"
 		Me.Label5.Size = New System.Drawing.Size(29, 12)
 		Me.Label5.TabIndex = 7
@@ -120,7 +120,7 @@ Partial Class Status
 		'Label6
 		'
 		Me.Label6.AutoSize = True
-		Me.Label6.Location = New System.Drawing.Point(170, 72)
+		Me.Label6.Location = New System.Drawing.Point(360, 72)
 		Me.Label6.Name = "Label6"
 		Me.Label6.Size = New System.Drawing.Size(29, 12)
 		Me.Label6.TabIndex = 8
@@ -129,7 +129,7 @@ Partial Class Status
 		'Label9
 		'
 		Me.Label9.AutoSize = True
-		Me.Label9.Location = New System.Drawing.Point(170, 130)
+		Me.Label9.Location = New System.Drawing.Point(360, 130)
 		Me.Label9.Name = "Label9"
 		Me.Label9.Size = New System.Drawing.Size(17, 12)
 		Me.Label9.TabIndex = 11
@@ -138,7 +138,7 @@ Partial Class Status
 		'Label8
 		'
 		Me.Label8.AutoSize = True
-		Me.Label8.Location = New System.Drawing.Point(112, 130)
+		Me.Label8.Location = New System.Drawing.Point(194, 130)
 		Me.Label8.Name = "Label8"
 		Me.Label8.Size = New System.Drawing.Size(17, 12)
 		Me.Label8.TabIndex = 10
@@ -192,7 +192,7 @@ Partial Class Status
 		'Label16
 		'
 		Me.Label16.AutoSize = True
-		Me.Label16.Location = New System.Drawing.Point(170, 178)
+		Me.Label16.Location = New System.Drawing.Point(360, 178)
 		Me.Label16.Name = "Label16"
 		Me.Label16.Size = New System.Drawing.Size(17, 12)
 		Me.Label16.TabIndex = 17
@@ -201,7 +201,7 @@ Partial Class Status
 		'Label15
 		'
 		Me.Label15.AutoSize = True
-		Me.Label15.Location = New System.Drawing.Point(112, 178)
+		Me.Label15.Location = New System.Drawing.Point(194, 178)
 		Me.Label15.Name = "Label15"
 		Me.Label15.Size = New System.Drawing.Size(17, 12)
 		Me.Label15.TabIndex = 16
@@ -223,7 +223,7 @@ Partial Class Status
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(232, 265)
+		Me.ClientSize = New System.Drawing.Size(539, 225)
 		Me.Controls.Add(Me.Label13)
 		Me.Controls.Add(Me.Label16)
 		Me.Controls.Add(Me.Label15)

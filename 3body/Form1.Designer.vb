@@ -35,7 +35,7 @@ Partial Class Form1
 		'b1
 		'
 		Me.b1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-		Me.b1.Location = New System.Drawing.Point(145, 212)
+		Me.b1.Location = New System.Drawing.Point(153, 220)
 		Me.b1.Name = "b1"
 		Me.b1.Size = New System.Drawing.Size(10, 10)
 		Me.b1.TabIndex = 0
@@ -43,8 +43,8 @@ Partial Class Form1
 		'
 		'b2
 		'
-		Me.b2.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-		Me.b2.Location = New System.Drawing.Point(294, 212)
+		Me.b2.BackColor = System.Drawing.Color.LightSkyBlue
+		Me.b2.Location = New System.Drawing.Point(302, 220)
 		Me.b2.Name = "b2"
 		Me.b2.Size = New System.Drawing.Size(10, 10)
 		Me.b2.TabIndex = 1
@@ -75,7 +75,7 @@ Partial Class Form1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(475, 442)
+		Me.ClientSize = New System.Drawing.Size(484, 462)
 		Me.Controls.Add(Me.Button2)
 		Me.Controls.Add(Me.Button1)
 		Me.Controls.Add(Me.b2)
