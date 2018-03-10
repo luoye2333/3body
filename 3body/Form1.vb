@@ -74,6 +74,6 @@ Public Class Form1
 		While File.Exists("轨迹记录" & k)
 			k += 1
 		End While
-		Return "轨迹记录" & k
+		Return "轨迹记录" & k & ".txt"
 	End Function
 End Class
